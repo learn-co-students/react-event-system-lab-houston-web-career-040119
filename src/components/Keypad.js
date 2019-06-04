@@ -1,7 +1,7 @@
 // Code Keypad Component Here
-import Reach from "react"
+import React from "react"
 
-class Keypad extends Reach.Component{
+class Keypad extends React.Component{
     
     keyUp=()=>{
         console.log('Entering password...')
